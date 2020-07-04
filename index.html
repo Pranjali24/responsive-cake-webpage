@@ -1,16 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Responsive Cake webpage</title>
-    <!-- Add a link to your css file here -->
-</head>
+    <link rel="stylesheet" href="style.css">
+  </head>
 
-<body>
-    <!-- Add your markup here -->
-</body>
+  <body>
+    <header class="header">
+      <img src="images/logo.png" alt="logo" class="logo" />
+      <a href="#" class="contact">Contact</a>
+    </header>
+    <nav class="navigation">
+      <ul class="navigation__list">
+        <li class="navigation__item">Home</li>
+        <li class="navigation__item">Cakes</li>
+        <li class="navigation__item">Ordering</li>
+        <li class="navigation__item">Lessons</li>
+        <li class="navigation__item">About</li>
+      </ul>
+    </nav>
+    <main class="main">
+      <div class="detail__content">
+        <div class="aside">
+          <div class="aside__heading">Heading</div>
+          <p class="aside__info">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Repellendus praesentium rerum, ea dolores quos beatae maiores optio,
+            harum doloribus tenetur molestiae corrupti laudantium doloremque
+            consequuntur reiciendis laboriosam mollitia impedit quam.
+          </p>
+          <p class="aside__info">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Repellendus praesentium rerum, ea dolores quos beatae maiores optio.          </p>
+        </div>
+        <div class="cake__content">
+          <img src="https://images.pexels.com/photos/205961/pexels-photo-205961.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="mainimage" class="cake__bigimage" />
+          <div class="image__box">
+            <img src="https://images.pexels.com/photos/264892/pexels-photo-264892.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="image1" class="cake__image" />
+            <img src="https://images.pexels.com/photos/1908674/pexels-photo-1908674.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="image2" class="cake__image" />
+            <img src="https://images.pexels.com/photos/2147834/pexels-photo-2147834.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="image3" class="cake__image" />
+            <img src="https://images.pexels.com/photos/264892/pexels-photo-264892.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="image4" class="cake__image" />
+          </div>
+        </div>
+      </div>
 
+      <div class="services">
+          <div class="service">
+              <img src="https://images.pexels.com/photos/2067396/pexels-photo-2067396.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="imag1" class="service__image">
+              <p class="service__detail">Chochlate</p>
+          </div>
+          <div class="service">
+              <img src="https://images.pexels.com/photos/1854652/pexels-photo-1854652.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="imag1" class="service__image">
+              <p class="service__detail">Vanila</p>
+          </div>
+          <div class="service">
+              <img src="https://images.pexels.com/photos/1721934/pexels-photo-1721934.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="imag1" class="service__image">
+              <p class="service__detail">Vanila</p>
+          </div>
+          <div class="service">
+              <img src="https://images.pexels.com/photos/264939/pexels-photo-264939.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="imag1" class="service__image">
+              <p class="service__detail">Vanila</p>
+          </div>
+      </div>
+    </main>
+    <footer class="footer">
+        <a href="#" class="footer__contact">Contact</a>
+        <a href="#" class="footer__contact">Delivery</a>
+    </footer>
+  </body>
 </html>

@@ -1,1 +1,101 @@
-/*  Add your styling here */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: sans-serif; }
+
+/* header Section */
+header {
+  background-color: #f38181;
+  padding: .7rem 2rem;
+  position: relative; }
+
+.logo {
+  height: 4rem;
+  width: 4rem;
+  border-radius: 50%; }
+
+.contact {
+  text-decoration: none;
+  position: absolute;
+  right: 2rem;
+  top: 2rem;
+  color: #333;
+  font-size: 1.2rem;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: #eee; }
+
+/* Navigation Section */
+.navigation {
+  background-color: aliceblue;
+  padding: .6rem 2rem; }
+  .navigation__list {
+    width: 50%;
+    margin: 0 auto;
+    list-style: none;
+    display: flex;
+    justify-content: space-around; }
+  .navigation__item {
+    font-size: 1rem;
+    font-weight: 600; }
+
+.detail__content {
+  display: flex; }
+
+.aside {
+  width: 30%;
+  text-align: center; }
+  .aside__heading {
+    padding: 1rem;
+    font-size: 2rem;
+    letter-spacing: 2px; }
+  .aside__info {
+    padding: 2rem;
+    line-height: 1.5;
+    letter-spacing: 1px; }
+
+.cake__content {
+  width: 70%;
+  height: 70vh;
+  padding: 0 2rem; }
+
+.cake__bigimage {
+  height: 50vh;
+  width: 100%; }
+
+.image__box {
+  padding: .5rem 0; }
+
+.cake__image {
+  height: 20vh;
+  width: 24.50%; }
+
+.services {
+  background-color: #eaffd0;
+  padding: 1rem 12rem;
+  display: flex;
+  justify-content: space-around; }
+
+.service__image {
+  height: 9rem;
+  width: 10rem; }
+
+.service__detail {
+  font-size: 1rem;
+  padding: 1rem 0 0;
+  text-align: center;
+  font-size: 1.1rem; }
+
+.footer {
+  padding: 1rem 0;
+  text-align: center; }
+  .footer__contact {
+    text-decoration: none;
+    color: #888;
+    font-size: 1.2rem;
+    padding: 1rem; }
+  .footer__contact:hover {
+    color: #222; }
